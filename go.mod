@@ -25,7 +25,6 @@ require (
 	github.com/juju/errors v0.0.0-20190207033735-e65537c515d7
 	github.com/juju/loggo v0.0.0-20190526231331-6e530bcce5d8 // indirect
 	github.com/juju/testing v0.0.0-20190723135506-ce30eb24acd2 // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/lib/pq v1.2.0
 	github.com/loopfz/gadgeto v0.9.0
 	github.com/magiconair/properties v1.8.1 // indirect
@@ -39,14 +38,11 @@ require (
 	github.com/ovh/symmecrypt v0.3.0
 	github.com/ovh/tat v5.2.5+incompatible
 	github.com/pelletier/go-toml v1.4.0 // indirect
-	github.com/prometheus/client_golang v1.1.0
-	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
-	github.com/prometheus/common v0.7.0 // indirect
-	github.com/prometheus/procfs v0.0.5 // indirect
+	github.com/prometheus/client_golang v1.11.1
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
 	github.com/santhosh-tekuri/jsonschema v1.2.4
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.6.0
 	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
 	github.com/sparrc/go-ping v0.0.0-20190613174326-4e5b6552494c
 	github.com/spf13/afero v1.2.2 // indirect
@@ -59,12 +55,10 @@ require (
 	github.com/ugorji/go v1.1.7 // indirect
 	github.com/wI2L/fizz v0.0.0-20190425144348-6274bc96d962
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392
-	golang.org/x/net v0.0.0-20190921015927-1a5e07d1ff72 // indirect
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	google.golang.org/appengine v1.6.3 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/ini.v1 v1.46.0 // indirect
 	gopkg.in/mail.v2 v2.3.1
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce // indirect
