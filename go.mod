@@ -59,9 +59,9 @@ require (
 	github.com/ugorji/go v1.1.7 // indirect
 	github.com/wI2L/fizz v0.0.0-20190425144348-6274bc96d962
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392
-	golang.org/x/net v0.0.0-20190921015927-1a5e07d1ff72 // indirect
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 	google.golang.org/appengine v1.6.3 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
