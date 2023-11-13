@@ -1,0 +1,880 @@
+repo_name: ccamel/utask
+report_id: 4d74c9ceac528b1e908322734f50e24d
+repo_type: Public
+timestamp: '2023-11-13T07:04:10+00:00'
+requested_by: w3st3ry
+provider: github
+branch: master
+detected_tools_count: 65
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: sql/schema.sql
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Gin Gonic
+  description: 'HTTP web framework written in Go '
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source: vendor/github.com/gin-gonic/gin/go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.4.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: docker-compose.yaml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source: vendor/github.com/ovh/tat/docker-compose.yml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: vendor/github.com/wI2L/fizz/codecov.yml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.8.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source: ui/editor/nginx.conf
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Protractor
+  description: End-to-end test framework for Angular and AngularJS applications
+  website_url: http://angular.github.io/protractor
+  version: 5.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: vendor/github.com/spf13/viper/go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: vendor/gopkg.in/yaml.v2/.travis.yml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-25 16:37:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source: vendor/github.com/jinzhu/now/wercker.yml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 1.2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source: vendor/github.com/ovh/tat/docker-compose.yml
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  version: 0.802.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/language-service"
+  description: Angular - language services
+  package_url: https://www.npmjs.com/@angular/language-service
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16047/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@fortawesome/fontawesome"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome
+  version: 1.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18601/default_3397f11bde97ca8f2273691776ca19b846d4097a.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@ng-bootstrap/ng-bootstrap"
+  description: Angular powered Bootstrap
+  package_url: https://www.npmjs.com/@ng-bootstrap/ng-bootstrap
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17486/default_10a98ebc0146ab94b0fde6f7013c1279c82e4135.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@types/jasmine"
+  description: TypeScript definitions for Jasmine
+  package_url: https://www.npmjs.com/@types/jasmine
+  version: 3.3.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15924/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@types/jasminewd2"
+  description: TypeScript definitions for jasminewd2
+  package_url: https://www.npmjs.com/@types/jasminewd2
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16060/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 8.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: brace
+  description: Browserify compatible version of the ace editor
+  package_url: https://www.npmjs.com/brace
+  version: 0.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17373/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: codelyzer
+  description: Linting for Angular applications
+  package_url: https://www.npmjs.com/codelyzer
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15956/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: d3
+  description: Data-Driven Documents
+  package_url: https://www.npmjs.com/d3
+  version: 5.11.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: ejs
+  description: Embedded JavaScript templates
+  package_url: https://www.npmjs.com/ejs
+  version: 2.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+  vulnerabilities:
+  - name: ejs template injection vulnerability
+    cve_id: CVE-2022-29078
+    cve_url: https://github.com/advisories/GHSA-phwq-j96m-2c2q
+    detected_date: Apr 28
+    severity: critical
+    first_patched: 3.1.7
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 2.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: jasmine-spec-reporter
+  description: Spec reporter for jasmine behavior-driven development framework
+  package_url: https://www.npmjs.com/jasmine-spec-reporter
+  version: 4.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16066/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+  vulnerabilities:
+  - name: Code Injection in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.13.1
+  - name: Denial of Service in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2pr6-76vf-7546
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.13.0
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: karma-coverage-istanbul-reporter
+  description: A karma reporter that uses the latest istanbul 1.x APIs
+  package_url: https://www.npmjs.com/karma-coverage-istanbul-reporter
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: karma-jasmine-html-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-jasmine-html-reporter
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/dashboard/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.10.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: ui/dashboard/package-lock.json
+  detection_source: ui/editor/package.json
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source: go.mod
+  last_updated_by: Pablo Pérez Schröder
+  last_updated_on: 2019-11-05 13:08:42.000000000 Z
